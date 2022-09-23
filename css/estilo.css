@@ -1,0 +1,78 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{    
+    background-color: blue;
+    padding: 3%;
+    text-align: center;
+}
+
+.img-logo{
+    width: 10%;
+}
+
+.container{
+    width: 80%;
+    background-color: blueviolet;
+    height: 800px;
+    margin: auto;
+}
+
+footer{   
+    padding: 3%;
+    background-color: brown ;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+
+  }
+
+.sec1{
+    padding: 20%;
+    background-color: coral;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+  }
+
+.sec2{
+    
+    background-color: deeppink;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 20%;
+  }
+
+  
+
+  @media screen and (min-width: 600px) {
+
+    header{
+        background-color: black;
+    }
+  }
+  
+  
+ 
+
